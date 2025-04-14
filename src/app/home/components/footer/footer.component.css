@@ -1,0 +1,91 @@
+/* General Footer Styling */
+.footer {
+    background-color: #2c3e50; /* Dark blue background for contrast */
+    color: #ecf0f1; /* Light text color for readability */
+    padding: 2rem 0; /* Vertical padding for spacing */
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem; /* Space between sections */
+    max-width: 1200px; /* Limit width for larger screens */
+    margin: 0 auto; /* Center the container */
+    padding: 0 1rem; /* Horizontal padding for smaller screens */
+}
+
+/* Logo Section */
+.footer-logo img {
+    max-width: 150px; /* Limit logo size */
+    height: auto;
+}
+
+/* Footer Content Section */
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Space between links and social icons */
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+.footer-links,
+.footer-social {
+    text-align: center;
+}
+
+.footer-links h4,
+.footer-social h4 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #ffffff; /* White color for headings */
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+    color: #bdc3c7; /* Light gray for links */
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.footer-links ul li a:hover {
+    color: #ecf0f1; /* Lighten link color on hover */
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.social-icons a {
+    color: #bdc3c7; /* Light gray for icons */
+    font-size: 1.5rem;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.social-icons a:hover {
+    color: #ecf0f1; /* Lighten icon color on hover */
+}
+
+/* Footer Bottom Section */
+.footer-bottom {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #bdc3c7; /* Light gray for copyright text */
+}
+
+.footer-bottom p {
+    margin: 0;
+}
