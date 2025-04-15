@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/Angular-lap-1',
+  basePath: 'C:/Program Files/Git/Angular-lap-1',
   supportedLocales: {
   "en-US": ""
 },
