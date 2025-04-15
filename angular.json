@@ -58,6 +58,10 @@
               "sourceMap": true
             }
           },
+          "github-pages": {
+    "baseHref": "/Angular-lap-1/",
+    "outputPath": "dist/browser"
+  },
           "defaultConfiguration": "production"
         },
         "serve": {
@@ -94,6 +98,13 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+    "baseHref": "/Angular-lap-1/",
+    "dir": "dist/browser"
+  }
         }
       }
     }
