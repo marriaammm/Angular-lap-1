@@ -1,28 +1,35 @@
 :host {
     display: block;
-    width: 100%;
+    width: 100vw;
     background-color: #333;
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 nav {
-    padding: 0.5rem 1rem;
+    width: 100%;
+    padding: 0.5rem 0;
 }
-
 
 .nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: none;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.logo {
+    margin-right: auto; 
 }
 
 .logo img {
     height: 40px;
+    margin-left: -8rem; 
 }
-
 .nav-links {
     display: flex;
     gap: 1.5rem;

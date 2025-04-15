@@ -1,6 +1,7 @@
 .product-container {
     background-color: #f9f9f9;
-    padding: 2rem;
+    padding: 2rem 0; 
+    width: 100%;
 }
 
 .product-container h2 {
@@ -11,9 +12,12 @@
 
 .product-list {
     display: flex;
-    justify-content: center;
-    gap: 2rem;
+    justify-content: space-around;
+    gap: 4rem;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .product-card {
